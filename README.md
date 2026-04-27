@@ -21,11 +21,11 @@
 在项目根目录下创建一个 `.env` 文件，或者在运行环境中设置以下环境变量：
 
 ```env
-HIGHGO_HOST=172.22.4.59
+HIGHGO_HOST=172.22.*.*
 HIGHGO_PORT=5866
-HIGHGO_USER=sysdba
+HIGHGO_USER=用户名
 HIGHGO_PASSWORD=您的密码
-HIGHGO_DATABASE=data_trade
+HIGHGO_DATABASE=数据库名
 ```
 
 ### 3. 使用 npx 运行 (推荐)
@@ -54,10 +54,10 @@ npx highgo-mcp-server
       "command": "npx",
       "args": ["-y", "/path/to/highgo-test"],
       "env": {
-        "HIGHGO_HOST": "172.22.4.59",
-        "HIGHGO_USER": "sysdba",
+        "HIGHGO_HOST": "172.22.*.*",
+        "HIGHGO_USER": "用户名",
         "HIGHGO_PASSWORD": "您的密码",
-        "HIGHGO_DATABASE": "data_trade"
+        "HIGHGO_DATABASE": "数据库名"
       }
     }
   }
