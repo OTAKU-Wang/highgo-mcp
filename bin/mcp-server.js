@@ -7,7 +7,7 @@ const { Client } = require('../drivers/highgodb');
 const path = require('path');
 
 // 尝试从当前目录加载 .env 文件
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 
 const config = {
   host: process.env.HIGHGO_HOST || '172.22.4.59',
