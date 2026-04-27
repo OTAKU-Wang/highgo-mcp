@@ -52,7 +52,7 @@ npx highgo-mcp-server
   "mcpServers": {
     "highgo": {
       "command": "npx",
-      "args": ["-y", "/path/to/highgo-test"],
+      "args": ["-y", "/path/to/highgo-mcp"],
       "env": {
         "HIGHGO_HOST": "172.22.*.*",
         "HIGHGO_USER": "用户名",
