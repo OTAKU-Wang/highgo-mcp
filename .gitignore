@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Environment variables (Crucial: contains DB passwords)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.exe
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor/OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore drivers if you intend to fetch them differently, 
+# but since they are local 'file:' dependencies, we usually keep them 
+# unless you want to package them into an archive.
+# drivers/
